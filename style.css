@@ -25,25 +25,36 @@ background: linear-gradient(rgb(7, 62, 11) 35%, rgb(1, 36, 6) 100%);
     height: 80vh;
     width: 450px;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,6,71,1) 100%, rgba(0,212,255,1) 100%);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(99,124,212,0.5057424336922269) 44%, rgba(0,212,255,1) 100%);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5% 5% ;
   
 }
 
-.box .resultado{
+.box input[type=text]{
     width: 450px;
     height: 15vh;
-    background: skyblue;
-    border: 15px solid gray;
+    background: rgb(11, 11, 11);
+    border-style: solid;
+    border-width: 20px 10px ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    margin-bottom: 1rem;
+    color: rgb(254, 192, 5);
+    font-style: bold;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: right;
+    padding: 0 10px;
 }
 
-.box .resultado:hover{
-  background: yellow;
+.box input[type=text]:hover{
+  background: rgb(2, 46, 0);
 }
 
-#btn{
+input[type=button]{
     width: 3.5rem;
     height: 2.5rem;
     display: inline-block;
@@ -53,11 +64,12 @@ background: linear-gradient(rgb(7, 62, 11) 35%, rgb(1, 36, 6) 100%);
     font-size:20px;
     background: black;
     color: white;
+    border-radius: 5px;
 
 
 }
 
-#btn:hover{
+input[type=button]:hover{
   color:black;
   background: skyblue;
 }
